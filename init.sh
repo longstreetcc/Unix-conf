@@ -14,8 +14,15 @@ fi
 if [ -d "$HOME/.vim" ]; then
 	mv $HOME/.vim $HOME/.vim.backup.${today}
 fi
-
+if [ -f "$HOME/.bashrc" ]; then
+	mv $HOME/.bashrc $HOME/.bashrc.backup.${today}
+fi
+if [ -d "$HOME/.bash_profile" ]; then
+	mv $HOME/.bash_profile $HOME/.bash_profile.backup.${today}
+fi
 ln -s $PWD/vimrc $HOME/.vimrc
 ln -s $PWD/vim $HOME/.vim
+ln -s $PWD/bashrc $HOME/.bashrc
+ln -s $PWD/bash_profile $HOME/.bash_profile
 
 echo "Done!"
