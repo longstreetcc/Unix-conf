@@ -1,5 +1,5 @@
 #alias
-alias freeshell="ssh -p $port $user@$host"
+
 
 
 
