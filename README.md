@@ -6,13 +6,13 @@ Usage
 1. Clone repository
 
 	```bash
-	git clone https://github.com/ericzhang-cn/vim-conf.git
+	https://github.com/longstreetcc/Unix-conf.git
 	```
 
 2. Initialize vundle
 
 	```bash
-	cd vim-conf
+	cd Unix-conf
 	./init.sh
 	```
 
